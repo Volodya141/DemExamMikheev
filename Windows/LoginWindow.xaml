@@ -1,0 +1,150 @@
+﻿<Window x:Class="BurgerPlusManagementSystem.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BurgerPlusManagementSystem.Windows"
+        mc:Ignorable="d"
+        Title="Burger Plus - Авторизация"
+        Height="900"
+        Width="550"
+        MinHeight="850"
+        MinWidth="550"
+        WindowStartupLocation="CenterScreen"
+        Background="#F5F7FA">
+
+    <Grid>
+
+        <Border Width="450"
+                Padding="25"
+                Background="White"
+                CornerRadius="15"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <StackPanel>
+
+                <TextBlock Text="Burger Plus"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"/>
+
+                <TextBlock Text="Авторизация пользователя"
+                           Margin="0,5,0,25"
+                           FontSize="14"
+                           Foreground="Gray"
+                           HorizontalAlignment="Center"/>
+
+                <GroupBox Header="Учетные данные">
+
+                    <StackPanel Margin="10">
+
+                        <TextBlock Text="Логин"/>
+
+                        <TextBox x:Name="tbLogin"
+                                 Height="35"
+                                 Margin="0,5,0,15"
+                                 VerticalContentAlignment="Center"/>
+
+                        <TextBlock Text="Пароль"/>
+
+                        <PasswordBox x:Name="pbPassword"
+                                     Height="35"
+                                     Margin="0,5,0,10"
+                                     VerticalContentAlignment="Center"/>
+
+                    </StackPanel>
+
+                </GroupBox>
+
+                <GroupBox Header="Проверка безопасности"
+                          Margin="0,15,0,0">
+
+                    <StackPanel Margin="10">
+
+                        <TextBlock Text="Соберите изображение из фрагментов"
+                                   HorizontalAlignment="Center"
+                                   FontWeight="Bold"/>
+
+                        <TextBlock x:Name="tbPuzzleHint"
+                                   Text="Выберите первый фрагмент"
+                                   Margin="0,5,0,10"
+                                   HorizontalAlignment="Center"/>
+
+                        <UniformGrid Rows="2"
+                                    Columns="2"
+                                    Height="250">
+
+                            <Border x:Name="border1"
+                                    Margin="2"
+                                    BorderBrush="LightGray"
+                                    BorderThickness="2"
+                                    Cursor="Hand"
+                                    MouseLeftButtonDown="PuzzlePart_Click">
+
+                                <Image x:Name="img1"
+                                        Stretch="Fill"/>
+                            </Border>
+
+                            <Border x:Name="border2"
+                                    Margin="2"
+                                    BorderBrush="LightGray"
+                                    BorderThickness="2"
+                                    Cursor="Hand"
+                                    MouseLeftButtonDown="PuzzlePart_Click">
+
+                                <Image x:Name="img2"
+                       Stretch="Fill"/>
+                            </Border>
+
+                            <Border x:Name="border3"
+                                    Margin="2"
+                                    BorderBrush="LightGray"
+                                    BorderThickness="2"
+                                    Cursor="Hand"
+                                    MouseLeftButtonDown="PuzzlePart_Click">
+
+                                <Image x:Name="img3"
+                                       Stretch="Fill"/>
+                            </Border>
+
+                            <Border x:Name="border4"
+                                    Margin="2"
+                                    BorderBrush="LightGray"
+                                    BorderThickness="2"
+                                    Cursor="Hand"
+                                    MouseLeftButtonDown="PuzzlePart_Click">
+
+                                <Image x:Name="img4"
+                                       Stretch="Fill"/>
+                            </Border>
+
+                        </UniformGrid>
+
+                        <Button Content="Проверить пазл"
+                                Margin="0,15,0,0"
+                                Height="35"
+                                Click="BtnCheckPuzzle_Click"/>
+
+                    </StackPanel>
+
+                </GroupBox>
+
+                <Button x:Name="btnLogin"
+                        Content="Войти"
+                        Height="45"
+                        Margin="0,20,0,0"
+                        FontSize="16"
+                        FontWeight="SemiBold"
+                        Background="#2D89EF"
+                        Foreground="White"
+                        BorderThickness="0"
+                        Click="BtnLogin_Click"/>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+
+</Window>
