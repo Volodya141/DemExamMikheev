@@ -1,0 +1,16 @@
+D:\vs\CheckEmail\bin\Debug\CheckEmail.exe.config
+D:\vs\CheckEmail\bin\Debug\CheckEmail.exe
+D:\vs\CheckEmail\bin\Debug\CheckEmail.pdb
+D:\vs\CheckEmail\obj\Debug\CheckEmail.csproj.AssemblyReference.cache
+D:\vs\CheckEmail\obj\Debug\CheckEmail.csproj.SuggestedBindingRedirects.cache
+D:\vs\CheckEmail\obj\Debug\MainWindow.g.cs
+D:\vs\CheckEmail\obj\Debug\App.g.cs
+D:\vs\CheckEmail\obj\Debug\CheckEmail_MarkupCompile.cache
+D:\vs\CheckEmail\obj\Debug\CheckEmail_MarkupCompile.lref
+D:\vs\CheckEmail\obj\Debug\MainWindow.baml
+D:\vs\CheckEmail\obj\Debug\CheckEmail.g.resources
+D:\vs\CheckEmail\obj\Debug\CheckEmail.Properties.Resources.resources
+D:\vs\CheckEmail\obj\Debug\CheckEmail.csproj.GenerateResource.cache
+D:\vs\CheckEmail\obj\Debug\CheckEmail.csproj.CoreCompileInputs.cache
+D:\vs\CheckEmail\obj\Debug\CheckEmail.exe
+D:\vs\CheckEmail\obj\Debug\CheckEmail.pdb
